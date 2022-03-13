@@ -1,0 +1,275 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A3E1FD 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.ref {
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.detailsBox {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.imageLink {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 350px;
+  height: 200px;
+}
+
+.hhh {
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#txtdiv{
+  text-align: center;
+  margin-left: 33%;
+  margin-right: 33%;
+
+}
+
+.textInp{
+
+  text-align: center;
+  height: 60px;
+  top: 100px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 100px;
+}
+
+.hhhh {
+  color: #AFd89D;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.h1h {
+  color: black;
+
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.pp {
+  color: #fff;
+  padding-top: 0px;
+}
+
+.ppp {
+  color: #AFd89D;
+  padding-top: 0px;
+  margin-bottom: 100px:
+}
+
+.mybox {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #AFd89D;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #AFd89D;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  border-color: transparent;
+  background-color: #AFd89D;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.btn {
+  background-color: #AFd89D;
+  color: #fff;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  margin-right: 45%;
+  margin-left: 48%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.backs {
+  position: relative;
+  margin-top: 100px;
+}
+
+.back {
+  border-color: transparent;
+  background-color: #AFd89D;
+  color: #fff;
+  font-size: 20px;
+  width: 200px;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+}
+
+
+textarea {
+  height: 160px;
+  padding: 20px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.countries {
+  width: 100%;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-color: transparent;
+  background-color: #fff;
+  color: #AFd89D;
+  font-size: 20px;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #AFd89D;
+}
+
+.arrow {
+  width: 8px;
+  padding-bottom: 35px;
+  padding-left: 7px;
+}
+
+.cName {
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+}
+
+input[type="textarea"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #AFd89D;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #AFd89D;
+}
+
+.countries {
+  width: 10px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+<%-include("header") -%>
+
+
+
+<div id="heading" class="box">
+  <h1>ADD Country : </h1>
+</div>
+
+<div class="mybox">
+  <form action="/" method="post" enctype="post">
+
+
+    <div class="item">
+      <input type="text" name="newItem" placeholder="country name here" autocomplete="off">
+    </div>
+
+    <div class="item">
+      <textarea type="text" type="textarea" name="description" placeholder="enter country description" autocomplete="off"></textarea>
+    </div>
+
+
+    <div class="item">
+      <input type="text" name="imageLink" placeholder="enter link to image " autocomplete="off">
+    </div>
+
+    <div class="item">
+      <button type="submit" name="buttonAddCountry" onclick="this.form.submit()"> Add Country to Data Base </button>
+    </div>
+  </form>
+  <div class="item">
+    <p class="ref" > <a href="https://postimages.org/"> you can add your local picture here</a> </p>
+  </div>
+</div>
+
+<div id="heading" class="box">
+  <h1 class='hhh'>ALL CANTRIES : </h1>
+  <p class='pp'>press countries to see details</p>
+</div>
+
+<div class="box">
+  <%for(var i = 0 ; i < listOfTasks.length ; i++ ){%>
+  <div class="item">
+    <form action="/details" method="post">
+
+      <span class="arrow">details </span>
+      <input type="checkbox" class="countries" value="<%=listOfTasks[i]._id%>" name="checkBox" onchange="this.form.submit()">
+    </form>
+    <span class="cName"><%=listOfTasks[i].country%></span>
+    <form action="/delete" method="post">
+      <span class="arrow"> delete </span>
+      <input type="checkbox" class="countries" value="<%=listOfTasks[i]._id%>" name="checkBox" onchange="this.form.submit()">
+    </form>
+  </div>
+  <%}%>
+
+</div>
+
+<%-include("footer") -%>

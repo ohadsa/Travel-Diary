@@ -1,0 +1,38 @@
+<%-include("header") -%>
+
+
+<div class="hhhh">
+  <h1 class="hhhh"><%=Country%></h1>
+  <p class="ppp">description below</p>
+</div>
+
+<div class="backs">
+  <form action="/back" method="post">
+    <button class="back" type="back" name="button2" onclick="this.form.submit()">go back to home page </button>
+  </form>
+</div>
+
+
+<form action="/addMoreImage" method="post">
+  <div id="txtdiv" class="item">
+    <input class="textInp" type="text" name="addImageLink" placeholder="enter link to add more image" autocomplete="off">
+</div>
+    <button class="btn" type="submit" name="buttonCountry" value="<%=CountryId%>">add</button>
+
+  <div class="container">
+    <%for(var i = 0 ; i < relevatImage.length ; i++ ){%>
+
+    <img class="imageLink" src="<%=relevatImage[i]%>" onerror="this.src='https://i.postimg.cc/1zWKPh2J/320.png';">
+
+    <%}%>
+  </div>
+
+
+    <div class="hhhh">
+      <h1 class="h1h" ><%=description%></h1>
+  </div>
+
+
+
+
+  <%-include("footer") -%>
