@@ -1,7 +1,7 @@
 # Travel-Diary
 
 A web application for managing travel diary <br />
-using NodeJS, mongoDB  <br /><br />
+using HTML, CSS, JavaScript, EJS, NodeJS, mongoDB  <br /><br />
 database structure:<br />
   <p align="left">
   
